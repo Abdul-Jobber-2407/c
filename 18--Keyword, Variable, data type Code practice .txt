@@ -1,0 +1,49 @@
+           //class 18 
+ 
+ /*An integer varibale num that will contain 10,
+ write a program that prints an intrger number */
+ #include<stdio.h>
+ int main()
+ {
+int num1=10,num2=20;
+ 
+printf("Numbers are = %d,%d",num1,num2);
+ 
+
+ }
+                      
+
+
+    /*write a program that prints a floating,
+  double numberand character */
+
+  #include<stdio.h>
+  main()
+  {
+    float num1=10.5;
+    double num2=10.23467890;
+    char ch ='a';
+
+    printf("num1=%.1f",num1);
+    printf("\nnum2=%lf",num2);
+    printf("\nch=%c",ch);
+    
+  }     
+
+
+
+
+  /*write a program that  takes an integer 
+  and print that number*/
+
+  #include<stdio.h>
+  int main()
+  {
+    int num;
+    printf ("please enter an integer=");
+    scanf("%d",&num);
+    printf ("You have pressed =%d\n",num);
+    
+    
+  } 
+  
